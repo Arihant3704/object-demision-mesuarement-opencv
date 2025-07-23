@@ -1,6 +1,11 @@
 # Object Dimension Estimator with Web Interface
 
+
+    
 This project uses OpenCV to detect and measure objects placed on a standard A4 sheet of paper. It calculates the width and height of the object in centimeters and displays the results in real-time through a web interface.
+
+
+<img width="1920" height="1080" alt="Screenshot from 2025-07-23 12-26-26" src="https://github.com/user-attachments/assets/db2f8208-13be-4bef-af04-79cc333688f5" />
 
 ## Features
 
