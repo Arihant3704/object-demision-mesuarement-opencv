@@ -57,7 +57,7 @@ python3 /home/arihant/Videos/opencv/ObjectMeasurement.py
 This script launches a Flask web server that reads the measurement data and serves the web interface.
 
 ```bash
-python3 /home/arihant/Videos/priya/server.py
+python3 /home/arihant/Videos/server.py
 ```
 *Keep this terminal running as well.*
 
