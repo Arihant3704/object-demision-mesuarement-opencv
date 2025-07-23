@@ -31,7 +31,7 @@ This project uses OpenCV to detect and measure objects placed on a standard A4 s
 
 2.  **Navigate to the project directory:**
     ```bash
-    cd /home/arihant/Videos/priya/
+    cd /home/arihant/Videos
     ```
 
 3.  **Install the required Python libraries:**
@@ -48,7 +48,7 @@ You need to run two separate scripts in two different terminal windows.
 This script handles the computer vision part of the project. It captures video from the webcam, detects the A4 paper and the object, performs measurements, and saves the data.
 
 ```bash
-python3 /home/arihant/Videos/priya/opencv/ObjectMeasurement.py
+python3 /home/arihant/Videos/opencv/ObjectMeasurement.py
 ```
 *Keep this terminal running.*
 
