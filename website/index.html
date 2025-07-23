@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Dimension Estimator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Object Dimension Estimator</h1>
+        <p>This project uses OpenCV to detect contours in images and videos, warp the perspective of the detected object, and measure its dimensions. It can be used for various tasks, such as detecting A4 papers, and measuring objects in an image or video.</p>
+
+        <div id="measurement-container">
+            <h2>Latest Measurement</h2>
+            <div id="measurement-data">
+                <p><strong>Timestamp:</strong> <span id="timestamp"></span></p>
+                <p><strong>Width:</strong> <span id="width"></span> cm</p>
+                <p><strong>Height:</strong> <span id="height"></span> cm</p>
+            </div>
+            <img id="measurement-image" src="" alt="Measurement Image">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
